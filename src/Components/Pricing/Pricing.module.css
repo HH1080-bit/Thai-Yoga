@@ -1,0 +1,36 @@
+.pricing h2 ,
+.pricing span
+                {
+                    display: block !important;
+        color: #fff;
+        text-align: center;
+}
+.pricing span {
+    font-weight: bold;
+}
+
+
+.pricing .card {
+    background-color: #1f3624 !important;
+    color: #fff;
+    box-shadow: 7px 7px 5px 2px rgba(31,54,36,0.5);
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.pricing .card:hover {
+    transform: translateX(-10px);
+}
+
+.pricing .notes {
+    background-color: #1f3624;
+    box-shadow: 7px 7px 5px 2px rgba(31,54,36,0.5);
+    padding: 10px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.pricing .notes:hover {
+transform: translateY(-10px);
+}

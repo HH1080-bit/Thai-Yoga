@@ -1,0 +1,39 @@
+.nav {
+    background-color: #A4D0A4;
+    padding: 30px !important;
+    position: fixed;
+    box-shadow: 7px 7px 5px 2px rgba(31,54,36,0.5);
+    margin-bottom: 10px;
+} 
+.nav .icon {
+    border: 2px solid #fff;
+} 
+.nav .icon:focus {
+
+    box-shadow: 0 0 10px rgba(255,255,255,0.75), 0 0 20px rgba(255,255,255,0.75);
+
+
+}
+.nav .icon span{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.nav .logo {
+    color: #fff;
+}
+
+.nav .link {
+    color: #fff !important;
+    font-weight: bold;
+    transition: 1s;
+     
+} 
+.nav .customLink {
+    text-decoration: none;
+}
+.nav .link:hover {
+
+    color:#1b3324 !important ;
+    font-weight: bold;
+     
+}

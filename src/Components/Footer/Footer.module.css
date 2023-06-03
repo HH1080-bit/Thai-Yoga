@@ -1,0 +1,22 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    font-weight: 400;
+    padding: 30px;
+    
+}
+
+.footer .lists ul {
+    list-style: none;
+    display: flex;
+
+}
+.footer .lists ul li {
+    margin-right: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .customLink {
+    color: #fff;
+}
